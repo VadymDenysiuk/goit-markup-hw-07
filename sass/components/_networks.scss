@@ -1,0 +1,34 @@
+.networks {
+  display: flex;
+}
+.team__networks {
+  margin-top: 16px;
+}
+.networks__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  /*color: var(--icons-color);*/
+  border-radius: 50px;
+  transition: background-color 250ms var(--cubic), color 250ms var(--cubic);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+  }
+}
+.networks__link--icons-color {
+  color: var(--icons-color);
+}
+
+.networks__icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.networks__item:not(:last-child) {
+  margin-right: 10px;
+}
