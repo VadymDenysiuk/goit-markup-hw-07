@@ -4,11 +4,12 @@
 .doing {
   display: flex;
 }
-.doing__item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .doing__item {
   position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .doing__text {
   position: absolute;
