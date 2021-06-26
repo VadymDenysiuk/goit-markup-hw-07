@@ -37,7 +37,7 @@
     color: var(--accent-color);
   }
 }
-.address__item {
+.address__item:not(:first-child) {
   margin-top: 9px;
 }
 
