@@ -505,18 +505,6 @@ body {
   line-height: 1.25;
 }
 
-.form-subscribe__button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .form-subscribe__icon {
   margin-left: 10px;
 }
@@ -840,6 +828,18 @@ body {
 
 .button-main:hover, .button-main:focus {
   background-color: var(--btn-hero-hover);
+}
+
+.form-subscribe__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo {
